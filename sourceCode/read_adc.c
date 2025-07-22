@@ -48,6 +48,7 @@ int read_ADC()													//this section is working correctly
 
 void channel_select(char n)										//this section is working correctly
 {																//this is for channel selection for serial adc.
+// Implements UPS_DESIGN_REQ002
 	char i,channel;
     CS = 0;
 
