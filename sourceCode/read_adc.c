@@ -30,7 +30,7 @@ void htod (int c, bit s)										//this section is working correctly
 
 int read_ADC()													//this section is working correctly
 {																//to read the analog equivalent digital counts.
-
+// Implements UPS_DESIGN_REQ002
 	int k=0;
 	char i;
 	CLK =0;
