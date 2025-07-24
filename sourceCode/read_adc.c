@@ -19,7 +19,7 @@
 
 void htod (int c, bit s)										//this section is working correctly
 {																//to display the values on the screen.
-// Implements UPS_DESIGN_REQ008
+
 	int num=c/10;
 	if(s==1)
 		sprintf(res,"%3.1f",(float)num/100);
